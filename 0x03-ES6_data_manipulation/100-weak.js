@@ -13,7 +13,7 @@ const MAX_ENDPOINT_CALLS = 5;
  * @param {{
  *   protocol: String,
  *   name: String,
- * }} endpoint - The endpoint to make a request to.
+ * }} endpoint - the location or URL where a client can send a request to access a specific function or resource provided by a server.
  * @author Bezaleel Olakunori <https://github.com/B3zaleel>
  */
 export function queryAPI(endpoint) {
